@@ -7,7 +7,7 @@
 </head>
 <body>
     <div id="main">
-        <h1>Пиццерия</h1>
+        <h1>Онлайн магазин</h1>
         <img src="http://i1.wp.com/zonaretiro.com/wp-content/fotos/2015/10/md2.jpg">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ipsum magni, molestias</p>>
         <button id="buy">Купить</button>
@@ -37,9 +37,9 @@
             let phone = document.getElementById("user_phone").value;
 
             let data = {
-                name:name,
-                email:email,
-                phone:phone,
+                name : name,
+                email : email,
+                phone : phone
             }
             tg.sendData(JSON.stringify(data));
             tg.close();
